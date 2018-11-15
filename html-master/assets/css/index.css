@@ -1,0 +1,125 @@
+body{
+    margin: 0 15px;
+}
+
+header{
+    box-shadow: 0 2px 4px rgba(108, 108, 108, 0.5);
+    padding: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 999999;
+    background: #fff;
+}
+
+p{
+    margin: 0;
+}
+
+.logo img{
+    max-width: 90px;
+    padding: 10px 15px;
+}
+
+.page-intro{
+    padding: 50px 0;
+}
+
+.page-intro > .title{
+    padding: 15px 15px 20px;
+    margin : 0 -15px;
+    font-weight: 600;
+    background-image: url("https://png.pngtree.com/element_origin_min_pic/16/07/26/16579722b699be8.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.title .order{
+    margin-top: 50px;
+}
+
+.business_group{
+    margin-bottom:70px;
+}
+
+.section{
+    padding-top: 30px;
+}
+
+.speaker{
+    text-align: center;
+}
+
+.speaker > div{
+    display: inline-block;
+    margin: 20px 30px;
+}
+
+.speaker > div > .photo{
+    width: 256px;
+    height: 256px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+}
+
+.speaker > div > p{
+    font-size: 18px;
+}
+
+.speaker > div > .name{
+    color: #300EC1;
+    font-weight: 600;
+}
+
+.agenda > div {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.agenda .name{
+    color: #433F3F;
+}
+
+.agenda > div:nth-child(odd) {
+    background: #BDDCDE;
+}
+
+.agenda .location > a{
+    text-decoration: none;
+    color: #300EC1;
+}
+
+.agenda .location > a > img{
+    width: 10px;
+}
+
+footer img{
+    max-width: 18px;
+    vertical-align: middle;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 320px) {
+
+    .speaker > div {
+        display: block;
+    }
+
+    .speaker > div > .photo{
+        width: 200px;
+        height: 200px;
+    }
+
+    .agenda > div {
+        padding: 5px 10px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
